@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300&display=swap');
+
+.displayInline{
+	display: inline;
+}
+body{
+	background: #111111;
+	font-family: "Poppins", sans-serif;
+}
+.square{
+	background: #e31e3c;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	transition-duration: 1s;
+	transition-property: background, border-radius;
+}
+.square:hover{
+	transition-duration: 1s;
+	border-radius: 50%;
+	background: #0074D9;
+}
+.squareContainer img{
+	cursor: pointer;
+	width: 1.5%;
+}
+.squareContainer{
+	padding-left: 11.5%;
+	padding-top: 3%;
+}
+.workButtonContainer{
+	color: #fff;
+	font-size: 1.7em;
+	cursor: pointer;
+}
+.workButtonContainer{
+	padding-left: 85%;
+}
+.workButton:hover{
+	filter: blur(1px);
+	cursor: pointer;
+}
+.titleContainer{
+	width: 800px;
+	padding-left: 300px;
+	padding-top: 25%;
+}
+.secondTitleContainerContainer{
+	display: flex;
+	justify-content: center;
+}
+.infoContainerContainer{
+	display: flex;
+	justify-content: center;
+}
+.secondTitleContainer{
+	width: 1900px;
+	padding-left: 300px;
+	padding-top: 150px;
+}
+.infoContainer{
+	width: 1800px;
+	padding-left: 200px;
+	padding-top: 40px;
+}
+.title{
+	font-weight: bold;
+	font-size: 5em;
+	color: #fff;
+}
+.secondTitle{
+	font-weight: bold;
+	font-size: 3.5em;
+	color: #fff;
+}
+.info{
+	font-weight: bold;
+	font-size: 2em;
+	color: #fff;
+}
+.sliderContainer{
+	text-align: center;
+}
+.imgSlider{
+	padding-top: 10%;
+	width: 90%;
+	border-radius: 10px;
+	cursor: pointer;
+}
+hr{
+	background-color: #858585;
+	width: 80%;
+}
+.selectCLientContainer{
+	font-size: 30px;
+}
+.titleSelectClient{
+	color: #858585;
+	padding-left: 10%;
+}
+.clients{
+	color: #fff;
+	padding-left: 30%;
+}
+.secondRowClient{
+	color: #fff;
+	padding-left: 8.3%;
+}
+.secondRowClientSecond{
+	color: #fff;
+	padding-left: 13.4%;
+}
+.secondRowClientThird{
+	color: #fff;
+	padding-left: 13.1%;
+}
+.secondRowClientFourth{
+	color: #fff;
+	padding-left: 7.6%;
+}
+.secondRowClientFifth{
+	color: #fff;
+	padding-left: 14.7%;
+}
+.secondRowClientSixth{
+	color: #fff;
+	padding-left: 13.2%;
+}
+.secondRowClientSeventh{
+	color: #fff;
+	padding-left: 10.9%;	
+}
+.secondRowClientHeighth{
+	color: #fff;
+	padding-left: 9.5%;
+}
+.secondRowClientNinth{
+	color: #fff;
+	padding-left: 11.9%;
+}
+.hiddenTitleSelectClient{
+	color: #111111;
+	padding-left: 10%;
+	-webkit-user-select: none;
+}
+
+@media (min-width: 1440px){
+	
+}
